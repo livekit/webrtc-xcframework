@@ -3,18 +3,22 @@ import PackageDescription
 
 let package = Package(
     name: "WebRTC",
-    platforms: [.iOS(.v12), .macOS(.v10_13)],
+    platforms: [
+        .iOS(.v13),
+        .macOS(.v10_15),
+    ],
     products: [
         .library(
             name: "WebRTC",
-            targets: ["WebRTC"]),
+            targets: ["WebRTC"]
+        ),
     ],
-    dependencies: [ ],
+    dependencies: [],
     targets: [
         .binaryTarget(
             name: "WebRTC",
-            url: "https://github.com/livekit/webrtc-xcframework-static/releases/download/114.5735.09/WebRTC.xcframework.zip",
-            checksum: "e8484f95a7ff68265ffe0b476aaf2917bb612466024c31290309a82a9dfcf434"
+            url: "https://github.com/livekit/webrtc-xcframework-static/releases/download/114.5735.10/WebRTC.xcframework.zip",
+            checksum: "f767f4c8574e80b297bae7894ef7285e3e308db0fbf28bd5cf507c2d7e8e114e"
         ),
     ]
 )
