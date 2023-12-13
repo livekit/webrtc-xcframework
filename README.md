@@ -1,2 +1,3 @@
-# webrtc-xcframework-static
- 
+# webrtc-xcframework
+
+LK-Prefixed Dynamic WebRTC XCFramework
