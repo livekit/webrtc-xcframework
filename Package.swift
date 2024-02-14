@@ -2,23 +2,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "WebRTC",
+    name: "LiveKitWebRTC",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15),
     ],
     products: [
         .library(
-            name: "WebRTC",
-            targets: ["WebRTC"]
+            name: "LiveKitWebRTC",
+            targets: ["LiveKitWebRTC"]
         ),
     ],
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "WebRTC",
-            url: "https://github.com/livekit/webrtc-xcframework-static/releases/download/114.5735.10/WebRTC.xcframework.zip",
-            checksum: "f767f4c8574e80b297bae7894ef7285e3e308db0fbf28bd5cf507c2d7e8e114e"
+            name: "LiveKitWebRTC",
+            url: "https://github.com/livekit/webrtc-xcframework/releases/download/114.5735.11/LiveKitWebRTC.xcframework.zip",
+            checksum: "cd8e3345d46a0cc37221355a1d5c9d1e67cb87ade648a1fe028a7fb6ed575841"
         ),
     ]
 )
