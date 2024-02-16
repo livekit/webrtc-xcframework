@@ -8,3 +8,16 @@ LiveKit version Dynamic WebRTC XCFramework
 Built using :
 * https://github.com/webrtc-sdk/webrtc/tree/livekit-prefixed
 * https://gist.github.com/hiroshihorie/fbc26cbbc027ff68d3f51b457cd0e248
+
+## Requirements
+* iOS 13+
+* macOS 10.15+
+* Mac Catalyst 14.0+
+
+## Binaries included
+| **Platform / arch** | arm64  |   x64   |
+|---------------------|--------|---------|
+| **iOS (device)**    |   ✅   |   N/A   |
+| **iOS (simulator)** |   ✅   |    ✅   |
+| **macOS**           |   ✅   |    ✅   |
+| **Mac Catalyst**    |   ✅   |    ✅   | 
