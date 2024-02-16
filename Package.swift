@@ -1,4 +1,6 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.7
+// (Xcode14.0+)
+
 import PackageDescription
 
 let package = Package(
@@ -6,6 +8,7 @@ let package = Package(
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15),
+        .macCatalyst(.v14),
     ],
     products: [
         .library(
@@ -17,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LiveKitWebRTC",
-            url: "https://github.com/livekit/webrtc-xcframework/releases/download/114.5735.11/LiveKitWebRTC.xcframework.zip",
-            checksum: "cd8e3345d46a0cc37221355a1d5c9d1e67cb87ade648a1fe028a7fb6ed575841"
+            url: "https://github.com/livekit/webrtc-xcframework/releases/download/114.5735.12/LiveKitWebRTC.xcframework.zip",
+            checksum: "bd8b25330c3746511dc1bb3c08d0bd98aacbb71d8d39ce63bb92adbcc0ce4070"
         ),
     ]
 )
