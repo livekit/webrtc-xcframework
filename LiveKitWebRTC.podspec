@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.osx.deployment_target = "10.15"
 
   spec.source = {
-    :http => "https://github.com/livekit/webrtc-xcframework/releases/download/114.5735.13/LiveKitWebRTC.xcframework.zip"
+    :http => "https://github.com/livekit/webrtc-xcframework/releases/download/114.5735.14/LiveKitWebRTC.xcframework.zip"
   }
   spec.vendored_frameworks = "LiveKitWebRTC.xcframework"
 end
