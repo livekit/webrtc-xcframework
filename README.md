@@ -14,11 +14,14 @@ Built using :
 * iOS 13+
 * macOS 10.15+
 * Mac Catalyst 14.0+
+* visionOS 1.0+
 
 ## Binaries included
-| **Platform / arch** | arm64  |   x64   |
-|---------------------|--------|---------|
-| **iOS (device)**    |   ✅   |   N/A   |
-| **iOS (simulator)** |   ✅   |    ✅   |
-| **macOS**           |   ✅   |    ✅   |
-| **Mac Catalyst**    |   ✅   |    ✅   | 
+| **Platform / arch**      | arm64  |   x64   |
+|--------------------------|--------|---------|
+| **iOS (device)**         |   ✅   |         |
+| **iOS (simulator)**      |   ✅   |    ✅   |
+| **macOS**                |   ✅   |    ✅   |
+| **Mac Catalyst**         |   ✅   |    ✅   | 
+| **visionOS (device)**    |   ✅   |     　   | 
+| **visionOS (simulator)** |   ✅   |         | 
