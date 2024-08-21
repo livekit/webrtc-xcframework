@@ -15,6 +15,7 @@ Built using :
 * macOS 10.15+
 * Mac Catalyst 14.0+
 * visionOS 1.0+
+* tvOS 17.0+
 
 ## Binaries included
 | **Platform / arch**      | arm64  |   x64   |
@@ -25,3 +26,5 @@ Built using :
 | **Mac Catalyst**         |   ✅   |    ✅   | 
 | **visionOS (device)**    |   ✅   |     　   | 
 | **visionOS (simulator)** |   ✅   |         | 
+| **tvOS (device)**        |   ✅   |     　   | 
+| **tvOS (simulator)**     |   ✅   |         | 
