@@ -21,4 +21,10 @@ Pod::Spec.new do |spec|
     :http => "https://github.com/livekit/webrtc-xcframework/releases/download/125.6422.19/LiveKitWebRTC.xcframework.zip"
   }
   spec.vendored_frameworks = "LiveKitWebRTC.xcframework"
+
+  # Exclude architectures for specific platforms
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'x86_64',
+    'EXCLUDED_ARCHS[sdk=xrsimulator*]' => 'x86_64'
+  }
 end
