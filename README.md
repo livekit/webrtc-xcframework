@@ -7,7 +7,7 @@ LiveKit version Dynamic WebRTC XCFramework
 * Network Monitor is always enabled (Field trial `WebRTC-Network-UseNWPathMonitor`)
 
 Built using :
-* https://github.com/webrtc-sdk/webrtc/tree/m137_release
+* https://github.com/webrtc-sdk/webrtc
 * https://github.com/webrtc-sdk/webrtc-build
 
 ## Requirements
