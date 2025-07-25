@@ -7,14 +7,14 @@ LiveKit version Dynamic WebRTC XCFramework
 * Network Monitor is always enabled (Field trial `WebRTC-Network-UseNWPathMonitor`)
 
 Built using :
-* https://github.com/webrtc-sdk/webrtc/tree/livekit-prefixed-m125
-* https://gist.github.com/hiroshihorie/fbc26cbbc027ff68d3f51b457cd0e248
+* https://github.com/webrtc-sdk/webrtc/tree/m137_release
+* https://github.com/webrtc-sdk/webrtc-build
 
 ## Requirements
 * iOS 13+
 * macOS 10.15+
 * Mac Catalyst 14.0+
-* visionOS 1.0+
+* visionOS 2.2+
 * tvOS 17.0+
 
 ## Binaries included
