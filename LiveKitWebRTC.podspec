@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "LiveKitWebRTC"
-  spec.version = "137.7151.03"
+  spec.version = "137.7151.04"
   spec.summary = "Custom WebRTC build for LiveKit"
   spec.description = <<-DESC
     LiveKit version Dynamic WebRTC XCFramework
@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.visionos.deployment_target = "2.2"
 
   spec.source = {
-    :http => "https://github.com/livekit/webrtc-xcframework/releases/download/137.7151.03/LiveKitWebRTC.xcframework.zip"
+    :http => "https://github.com/livekit/webrtc-xcframework/releases/download/137.7151.04/LiveKitWebRTC.xcframework.zip"
   }
   spec.vendored_frameworks = "LiveKitWebRTC.xcframework"
 
